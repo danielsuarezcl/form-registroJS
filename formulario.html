@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <script src="js/formulario.js"></script>
+    <script src="js/objetos.js"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <main id="content">
+        <div class="box">
+            <h1>Registro de usuario</h1>
+            <form action="" class="form">
+                <input class="input" type="text" placeholder="Ingresa tu nombre" id="nombre" onchange="ValidaNombre()">
+                <p id="msgNombre"></p>
+                    <div class="form-row">
+                        <div class="form-2-column">
+                            <input class="input" type="ApellidoMaterno" placeholder="Apellido materno" id="apellidomaterno" onchange="ValidaApellidoMaterno()">
+                            <p id="msgApellidoMaterno"></p>
+                        </div>
+                        <div class="form-2-column">
+                            <input class="input" type="ApellidoPaterno" placeholder="Apellido paterno" id="apellidopaterno" onchange="ValidaApellidoPaterno()">
+                            <p id="msgApellidoPaterno"></p>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-2-column">
+                            <input class="input" type="Mail" placeholder="Email" id="mail" onchange="ValidaMail()">
+                            <p id="msgMail"></p>
+                        </div>
+                        <div class="form-2-column">
+                            <input class="input" type="Fono" placeholder="Teléfono" id="fono" onchange="ValidaFono()">
+                            <p id="msgFono"></p>
+                        </div>
+                    </div>
+                    <input class="input" type="Direccion" placeholder="Dirección" id="direccion" onchange="ValidaDireccion()">
+                    <p id="msgDireccion"></p>
+                        <div class="form-row">
+                            <div class="pie"><a href="#">Términos y condiciones</a></div>
+                            <div class="pie"><a href="#">Políticas de privacidad</a></div>
+                        </div>
+                    <input onclick="AgregarRegistro()" class="submit" type="button" value="Enviar">
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>

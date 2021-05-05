@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Gloria+Hallelujah&family=Oswald:wght@200&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/p5.png);
+}
+
+#content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#content h1{
+    font-family: 'Bree Serif', serif;
+    color: #ffcc00;
+}
+
+.box{
+    width: 500px;
+    margin-top: 100px;
+    background-color: #909090;
+    border-radius: 50px;
+    box-shadow: -1px 27px 63px -7px rgba(0,0,0,0.3);
+    -webkit-box-shadow: -1px 27px 63px -7px rgba(0,0,0,0.3);
+    -moz-box-shadow: -1px 27px 63px -7px rgba(0,0,0,0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.box h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    padding: 25px 0px;
+}
+
+.box #nombre{
+    width: 400px;
+    height: 50px;
+    margin: 5px;
+    padding: 5px;
+    color: #ffffff;
+    background-color: #c0c0c0;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+}
+
+.box #apellidomaterno{
+    width: 195px;
+    height: 50px;
+    margin: 5px;
+    padding: 5px;
+    color: #ffffff;
+    background-color: #c0c0c0;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+}
+
+.box #apellidopaterno{
+    width: 195px;
+    height: 50px;
+    margin: 5px;
+    padding: 5px;
+    color: #ffffff;
+    background-color: #c0c0c0;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+}
+
+.box #mail{
+    width: 195px;
+    height: 50px;
+    margin: 5px;
+    padding: 5px;
+    color: #ffffff;
+    background-color: #c0c0c0;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+}
+
+.box #fono{
+    width: 195px;
+    height: 50px;
+    margin: 5px;
+    padding: 5px;
+    color: #ffffff;
+    background-color: #c0c0c0;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+}
+
+.box #direccion{
+    width: 400px;
+    height: 80px;
+    margin: 5px;
+    padding: 5px;
+    color: #ffffff;
+    background-color: #c0c0c0;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+}
+
+.box .submit{
+    width: 250px;
+    height: 40px;
+    margin: 35px auto;
+    background-color: #ffcc00;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    color: #4a4a4a;
+    border: none;
+    border-radius: 5px;
+}
+
+.box .submit:hover{
+    background-color: #4a4a4a;
+    color: #ffffff;
+}
+
+.box .form-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box .form{
+    display: flex;
+    flex-direction: column;
+}
+
+.box .pie{
+    padding: 5px;
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+}
+
+.pie a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.pie a:hover{
+    color: #ffcc00;
+}
+
+.formFalse{
+    padding: 5px 5px;
+    color: #ffcc00;
+    font-size: 22px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    text-shadow: 0px 0px 12px rgba(253,0,55,1);
+}
+
+.formTrue{
+    padding: 5px 5px;
+    color: #ffcc00;
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    text-shadow: 0px 0px 12px rgb(186, 253, 0);
+}
+
+.form-row .form-2-column p{
+    width: 190px;
+}
